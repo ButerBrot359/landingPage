@@ -24,19 +24,18 @@ body * {
     font-size: 11px;
     line-height: 15px;
 }
-
-/* .submit {
-    outline: 0;
-    border-radius: 2px;
-    color: white;
-    text-transform: uppercase;
-    font-style: italic;
-    font-family: 'Nunito Sans';
-    font-size: 11px;
-    line-height: 15px;
+.calculate {
+    margin-top: 28px;
+    padding: 19px 42px 20px 41px;
+}
+.submit {
+    margin-top: 28px;
+    margin-right: 20px;
+    box-shadow: none;
+    padding: 19px 23px 20px 22px;
     border: 1px solid #FFFFFF;
     background-color: rgba(0, 0, 0, 0);
-} */
+}
 .header-navigation {
     list-style: none;
     display: flex;
