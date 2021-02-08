@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
-
+/*styles for body*/
 body {
     margin: 0;
     font-family: 'Nunito Sans', Helvetica, Arial;
@@ -10,6 +10,12 @@ body {
 body * {
     box-sizing: border-box;
 }
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+/*styles for buttons*/
 .button {
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
@@ -27,15 +33,26 @@ body * {
 .calculate {
     margin-top: 28px;
     padding: 19px 42px 20px 41px;
+    margin-left: 40px;
 }
 .submit {
     margin-top: 28px;
     margin-right: 20px;
     box-shadow: none;
-    padding: 19px 23px 20px 22px;
+    padding: 18px 23px 20px 21px;
     border: 1px solid #FFFFFF;
     background-color: rgba(0, 0, 0, 0);
+    margin-left: 20px;
 }
+
+/*styles for nav_bars*/
+.header {
+    position: sticky;
+    top:0;
+    z-index: 999;
+    background-color: black;
+}
+
 .header-navigation {
     list-style: none;
     display: flex;
@@ -44,22 +61,23 @@ body * {
 .header-navigation_item {
     margin-right: 47.09px;
 }
-
-.header-navigation_link {
-    text-decoration: none;
-    color: white;
-}
-
-.header {
-    background-color: black;
-}
-
 .header-content {
     display: flex;
     justify-content: space-between;
     height: 83px;
     align-items: center;
 }
+.header-navigation_link {
+    text-decoration: none;
+    color: white;
+}
+.completed_projects_navbar {
+    /* padding-right: 60px; */
+    /* display:flex; */
+    justify-content: space-evenly;
+    margin: 0
+}
+
 .logo {
     font-family: Nunito Sans;
     font-style: normal;
@@ -81,10 +99,7 @@ body * {
     color: #E3B873;
 }
 
-.container {
-    max-width: 1250px;
-    margin: 0 auto;
-}
+/*styles for sections*/
 
 .hero {
     background-image: url("../images/background.jpg");
@@ -110,8 +125,20 @@ body * {
     z-index: 1;
     
 }
+.completed_projects {
+   
+    padding-top: 107px;
+    background-color:#131313;
+    height: 1074px;
+}
+
+.f1_block {
+    max-width: 676px;
+}
+/*general styles (title, text, etc.)*/
 .title {
     margin: 0;
+    margin-left: 40px;
     font-family: 'Yeseva One', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: normal;
@@ -123,9 +150,12 @@ body * {
 .title span {
     color: #E3B873;
 }
+
+
 .text {
     width: 504px;
     height: 89px;
+    margin-left: 40px;
     font-family: Nunito Sans;
     font-style: normal;
     font-weight: normal;
@@ -133,3 +163,114 @@ body * {
     line-height: 36px;  
     color: white;
 }
+
+.navbar_container {
+    max-height: 43px;
+    padding-bottom: 53px;
+    display: flex;
+    justify-content: flex-end;
+}
+.subnav {
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.3);
+}
+.subnav:hover {
+    color:#E3B873;
+    /* padding-bottom: 10px; */
+    border-bottom: 1px solid #E3B873;
+    border-top: 0;
+    line-height: 32px;
+}
+.section2_content {
+    padding-top: 26px;
+    display: flex;
+}
+.subtitle {
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    color: #E3B873;
+}
+.second_text {
+    position: relative;
+    padding-right:50px ;
+    font-size: 14px;
+    line-height: 27px;
+}
+.completed_projects_text {
+    max-width: 476px;
+}
+.completed_projects_image {
+    display: block;
+    padding-left: 52px;
+}
+.grid_wrapper {
+    display: grid;
+    grid-template-columns: 200px 250px;
+    grid-template-rows: 107px 107px;
+}
+.grid_title{
+    margin-left: 0;
+    font-size: 18px;
+    line-height: 25px;
+    color: #E3B873;
+}
+.grid_item {
+    padding-left: 40px;
+}
+.grid_text {
+    padding-top: 9px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.bottom_arrows {
+    margin-left: 40px;
+    max-width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.line_left {
+    margin-left: -25px;
+}
+.line_right {
+    margin-right: -25px;
+}
+.online_control{
+    height: 725px;
+}
+
+.title-block3 {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.camera_image {
+    display: flex;
+    justify-content: center;
+}
+.camera_elements {
+    padding-right: 8px;
+}
+
+/*add pseudo*/
+.control_image{
+    display: block;
+    margin: -320px auto 0px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    
+    
+}
+/* .online_control-head {
+    position: relative;
+    margin-top: -320px ;
+    margin-bottom: 0;
+} */
