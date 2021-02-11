@@ -167,6 +167,8 @@ body * {
     color: white;
 }
 
+
+/*-----------end of section hero------------------*/
 .navbar_container {
     max-height: 43px;
     padding-bottom: 53px;
@@ -257,7 +259,7 @@ body * {
 .line_right {
     margin-right: -25px;
 }
-
+/*---------------end of section completed proj----------*/
 .online_control-head{
     height: 725px;
     position: relative;
@@ -472,7 +474,7 @@ input[type="checkbox"]:not(:checked) + span.checkbox_text:after{
 input[type="checkbox"]:checked + span.checkbox_text:after{
     opacity: 1;
 }
-
+/*-----------end of section online control------------------*/
 .types_of_repair{
     height: 1680px;
     /* background-color: black */
@@ -725,6 +727,8 @@ input[type="checkbox"]:checked + span.checkbox_text:after{
 
     text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
 }
+
+/*-----------end of section types of repair------------------*/
 .fantasy {
     position: relative;
     height: 864px;
@@ -819,6 +823,8 @@ input[type="checkbox"]:checked + span.checkbox_text:after{
     left:0;
     top: 555px
 }
+
+/*-----------end of section fantasy------------------*/
 .clients {
     height: 1109px;
     margin:0
@@ -905,6 +911,7 @@ box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
     left:-15px;
     bottom: -55px;
 }
+/*-----------end of section clients------------------*/
 .map {
     height: 954px;
     position: relative;
