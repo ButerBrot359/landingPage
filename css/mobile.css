@@ -4,7 +4,7 @@
     .clients {
         display: none;
     }
-    /* .map {
+    /* .fantasy {
         display: none;
     } */
     /*---------------*/
@@ -354,6 +354,7 @@
         line-height: 21px;
         padding: 11px 19px;
     }
+    /*fantasy start*/
     .fantasy_list__one {
         display: none;
     }
@@ -380,28 +381,44 @@
     
     .fantasy_list {
         width: 100%;
-        padding: 0 18px;
+        padding: 0;
+    }
+    .fantasy_images {
+        display: none;
     }
     .fantasy-title {
         font-size: 22px;
         line-height: 30px;
         text-align: center;
-        margin-bottom: 110px;
+        margin-bottom: 50px;
         
     }
     .fantasy_image_mobile {
-        position: absolute;
-        /* visibility: visible; */
+        position: relative;
+        visibility: visible;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        min-width: 80%;
+        padding: 0 18px;
+        margin-bottom: -100px;
     }
     .f_i-mobile {
         /* position: absolute; */
-        width: 90%;
+        width: 100%;
     }
+    .f_i-mobile_left {
+        position: absolute;
+        left:50px
+    }
+    .f_i-mobile_right {
+        position: absolute;
+        right:50px
+    }
+    
+
+    /*fantasy end*/
     .footer {
         display: none;
     }
@@ -451,6 +468,8 @@
     }
     .map_title {
         padding: 0;
+        padding-top: 40px;
+        margin: 0 auto;
     }
     .map_adress {
         display: none;
@@ -460,8 +479,13 @@
         position: relative;
         align-self: center;
         width: 90%;
+        padding-top: 40px
     }
     .map {
         height: auto;
+        background-color: #131313;;
+    }
+    .insta_email {
+        margin-bottom: 40px;
     }
 }
