@@ -82,7 +82,10 @@ body * {
     justify-content: space-evenly;
     margin: 0
 }
-
+.complete_proj_mobile_image {
+    visibility: hidden;
+    position: absolute;
+}
 .logo {
     font-family: Nunito Sans;
     font-style: normal;
@@ -313,11 +316,11 @@ body * {
     right: 0;
 }
 
-.triangle {
+/* .triangle {
     position: absolute;
     margin: 0 auto;
     padding: 0 0 5px 5px;
-}
+} */
 
 .control_text {
     display: flex;
@@ -734,6 +737,10 @@ input[type="checkbox"]:checked + span.checkbox_text:after{
     height: 864px;
     background-color: rgba(0, 0, 0, .9)
 }
+.fantasy_image_mobile {
+    position: absolute;
+    visibility: hidden;
+}
 .fantasy-container {
     height: 864px;
     position: relative;
@@ -980,6 +987,10 @@ color: #E3B873;
     top: -245px;
     left:0;
     right: 0;
+}
+.hiden_map_image {
+    visibility: hidden;
+    position: absolute;
 }
 .map_form {
     width: 883px;

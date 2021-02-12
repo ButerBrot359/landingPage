@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Landing Page</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
 </head>
 <body>
     <header class="header">
@@ -23,7 +24,7 @@
                 </ul>
             </nav>
             <span><a href="tel:+79287683239" class="phone">+7 (928) 768-32-39</a></span>
-            <button class="button">Request a call</button>
+            <button class="button header_button">Request a call</button>
         </div>
     </header>
     <main>
@@ -42,7 +43,7 @@
             <div class="hero-overlay"></div>
         </section>
         <section class="completed_projects">
-            <div class="container">
+            <div class="container com_proj_conteiner">
 
                 <nav class="navbar_container">
                     <ul class="header-navigation completed_projects_navbar">
@@ -57,6 +58,15 @@
                         <p class="text second_text">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction 
                             market we have made happy more than 1000 families
                         </p>
+                        <div class="complete_proj_mobile_image">
+                            <div class="mobile_image_container">
+                                <img class="comProjMini" src="images/completeProjectMobile.png">
+                                <img class="cpministrleft" src="images/cpministrleft.svg">
+                                <img class="cpministrright" src="images/cpministrright.svg">
+                            </div>
+                        </div>
+                        
+                        
                         <div class="grid_wrapper">
                             <div class="grid_item">
                                 <h3 class="title grid_title">City:</h3>
@@ -104,12 +114,12 @@
                         <img src="images/goldenLine.svg" class="camera_elements">
                     </div>
                     <div class="control_image">
-                        <div>
-                            <img src="images/manWithtool.png">
+                        <div >
+                            <img src="images/manWithtool.png" class="mwt_image">
                         </div>
                         <div class="control_overlay">
-                            <img src="images/Ellipse.svg" class="playbutton">
-                            <img src="images/Polygon.svg" class="playbutton triangle">
+                            <img src="images/playbuttonFinal.svg" class="playbutton">
+                            <!-- <img src="images/Polygon.svg" class="playbutton triangle"> -->
                         </div>
                     </div>
             
@@ -120,11 +130,11 @@
                     </div>
                     <form action="#" class="input_form">
                         <div class=input_main>
-                            <label class="label"><span class="input_text input_element">Name<span><input class="inputs input_field" type="text" placeholder="What is your name:"></label>
-                            <label class="label"><span class="input_text input_element">Phone<span><input class="inputs input_field" type="text" placeholder="Your phone number:"></label>
-                            <button class="button input_button input_element">submit</button>
+                            <label class="label label_control"><span class="input_text input_element input_element_control">Name<span><input class="inputs input_field input_filed_control" type="text" placeholder="What is your name:"></label>
+                            <label class="label label_control"><span class="input_text input_element input_element_control">Phone<span><input class="inputs input_field input_filed_control" type="text" placeholder="Your phone number:"></label>
+                            <button class="button input_button input_element control_submit_button">submit</button>
                         </div>
-                        <label class="input__checkbox"><input type="checkbox" name="option2" value="a2"><span class="checkbox_text">I agree to the processing of personal data</span></label>
+                        <label class="input__checkbox input__checkbox_contol_mobile"><input type="checkbox" name="option2" value="a2"><span class="checkbox_text checkbox_text_mobile">I agree to the processing of personal data</span></label>
                     </form>
                 </div>
                 
@@ -270,6 +280,9 @@ the timing of your future repairs
                         <li class="fantasy_list__one-element"><a class="fantasy_list__one-link" href="#">High tech</a></li>
                         <li class="fantasy_list__one-element"><a class="fantasy_list__one-link" href="#">Eclecticism</a></li>
                     </ul>
+                    <div class="fantasy_image_mobile">
+                        <img src="images/fantasy_mobile.png" class="f_i-mobile">
+                    </div>
                 </div>
                 <div class="fantasy_images">
                     <img src="images/fantasy1.jpg" id="fantasy_item1" class="fantasy_images-element">
@@ -331,16 +344,6 @@ the timing of your future repairs
         </section>
         <section class="map">
             <div class="container map_container">
-                <div class="adress">
-                    <h3 class="map_title">Rostov-on-Don, Nansen St., 239 Shopping Center<br>
-                        Decorum Tel +7 (928) 768 32 29
-                    </h3>
-                    <div class="insta_email">
-                        <img src="images/insta.svg" class="insta_image">
-                        <img src="images/email.svg" class="email_image">
-                    </div>
-                    <img src="images/adress.png" class="map_adress">
-                </div>
                 <div class=end_form>
                     <form class="help_form map_form">
                         <h3 class="map_form_title">have any questions?</h3>
@@ -353,6 +356,19 @@ the timing of your future repairs
                         <button class="button input_button input_element button_help__black button_map">Submit</button>
                     </form>
                 </div>
+                <div class="adress">
+                    <img class="hiden_map_image" src="images/miniMap.png">
+                    
+                    <h3 class="map_title">Rostov-on-Don, Nansen St., 239 Shopping Center<br>
+                        Decorum Tel +7 (928) 768 32 29
+                    </h3>
+                    <div class="insta_email">
+                        <img src="images/insta.svg" class="insta_image">
+                        <img src="images/email.svg" class="email_image">
+                    </div>
+                    <img src="images/adress.png" class="map_adress">
+                </div>
+               
                 <div class="map_bg"></div>
             </div>
 
