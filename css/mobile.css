@@ -247,6 +247,7 @@
         background: #131313;
         box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
         width: 100%;
+        color: white;
     }
     input.input_field::placeholder {
         color: white
@@ -315,7 +316,7 @@
         margin-bottom: 175px ;
     }
     .layout_ul_decription {
-        padding:21px 18px 37px 31px;
+        padding:21px 18px 37px 35px;
         width: 75%;
 
         height: auto;
@@ -457,6 +458,7 @@
     .input_field__black_question {
         width: 90%;
         border-bottom: 1px solid white;
+        /* color: white; */
     }
     .map_checkbox {
         padding-left: 18px;
@@ -488,4 +490,7 @@
     .insta_email {
         margin-bottom: 40px;
     }
+    /* .input_field__black-mobile {
+        color: white;
+    } */
 }
