@@ -766,6 +766,7 @@ input[type="checkbox"]:checked + span.checkbox_text:after{
     padding: 137px 0 0 99px;
     width: 500px
 }
+
 .fantasy-title {
     margin: 0;
     font-family: Yeseva One;
